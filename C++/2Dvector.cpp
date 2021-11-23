@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+//variable size of array
 
 int main()
 {   
