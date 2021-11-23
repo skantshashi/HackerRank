@@ -4,7 +4,8 @@ using namespace std;
 
 int main()
 {   
-	int n=3,a;
+	int n,a;
+	cin>>n;
 vector<int> d;
 for(int i=0;i<n;i++)
 {
