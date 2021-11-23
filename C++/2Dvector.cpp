@@ -3,23 +3,18 @@
 using namespace std;
 
 int main()
+{   
+	int n=3,a;
+vector<int> d;
+for(int i=0;i<n;i++)
 {
-	
-	vector<vector<int>> vect
+  cin>>a;
+  d.push_back(a);
+}
+	for (int i = 0; i < d.size(); i++)
 	{
-		{1, 2, 3},
-		{4, 5, 6},
-		{7, 8, 9}
-	};
-	
-	for (int i = 0; i < vect.size(); i++)
-	{
-		for (int j = 0; j < vect[i].size(); j++)
-		{
-			cout << vect[i][j] << " ";
-		}
-		cout << endl;
+	  cout << d[i]<< " ";
+		
 	}
-
-	return 0;
+    return 0;
 }
